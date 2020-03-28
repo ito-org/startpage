@@ -1,0 +1,75 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "Ito App"
+subtitle: "List of all project links"
+logo: "assets/homer.png"
+# Alternatively a fa icon can be provided:
+# icon: "fas fa-skull-crossbones"  
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'  # set false if you want to hide it.header:
+
+# Optional message
+message:
+  # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
+  style: "is-warning"
+  title: "Contribution!"
+  content: "This is a first draft of all Ito service links, you can easily contribute on github (coming soon)."
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Ito"
+    icon: "fas fa-code-fork"
+    url: "https://github.com/Bandemic"
+    target: '_blank' # optionnal html a tag target attribute
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "DevOps"
+    icon: "fas fa-code"
+    items:
+      - name: "Github"
+        #logo: "/assets/tools/jenkins.png"
+        # Alternatively a fa icon can be provided:
+        icon: "fab fa-github"
+        subtitle: "Link to the Github organisation"
+        tag: "code"
+        url: "https://github.com/Bandemic"
+        target: '_blank' # optionnal html a tag target attribute
+      - name: "Confluence"
+        logo: "/assets/tools/confluence.png"
+        subtitle: "Documentation and knowladge base."
+        tag: "documentation"
+        # Optional tagstyle
+        url: "http://95.217.155.139:8090"
+      - name: "Jira"
+        logo: "/assets/tools/jira.png"
+        subtitle: "Projectmanagement"
+        tag: "organisation"
+        url: "http://95.217.155.139:8080"
+      - name: "Discord"
+        icon: "fab fa-discord"
+        tag: "communictaion"
+        url: "https://discord.gg/GbSySkC"
+  
+  - name: "Webpresence"
+    icon: "fas fa-comments"
+    items:
+      - name: "Homepage"
+        logo: "/assets/logo.png"
+        subtitle: "Official web presence of Ito"
+        url: "https://ito-app.org"
+      - name: "Twitter"
+        subtitle: "link to the twitter profile"
+        icon: "fab fa-twitter"
+        tag: "socialmedia"
+        url: "https://twitter.com/BandemicApp?s=20"
+      - name: "Instagram"
+        icon: "fab fa-instagram"
+        #logo: "/assets/tools/elastic.png"
+        subtitle: "link to the instagram profile"
+        tag: "socialmedia"
+        url: "#"
