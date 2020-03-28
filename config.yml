@@ -21,7 +21,7 @@ message:
 links:
   - name: "Ito"
     icon: "fas fa-code-fork"
-    url: "https://github.com/Bandemic"
+    url: "https://github.com/ito-org"
     target: '_blank' # optionnal html a tag target attribute
 
 # Services
@@ -37,19 +37,19 @@ services:
         icon: "fab fa-github"
         subtitle: "Link to the Github organisation"
         tag: "code"
-        url: "https://github.com/Bandemic"
+        url: "https://github.com/ito-org"
         target: '_blank' # optionnal html a tag target attribute
       - name: "Confluence"
         logo: "/assets/tools/confluence.png"
         subtitle: "Documentation and knowladge base."
         tag: "documentation"
         # Optional tagstyle
-        url: "http://95.217.155.139:8090"
+        url: "http://confluence.ito-app.org"
       - name: "Jira"
         logo: "/assets/tools/jira.png"
         subtitle: "Projectmanagement"
         tag: "organisation"
-        url: "http://95.217.155.139:8080"
+        url: "https://jira.ito-app.org"
       - name: "Discord"
         icon: "fab fa-discord"
         tag: "communictaion"
@@ -62,6 +62,11 @@ services:
         logo: "/assets/logo.png"
         subtitle: "Official web presence of Ito"
         url: "https://ito-app.org"
+      - name: "Youtube"
+        subtitle: "Youtube Channel"
+        icon: "fab fa-youtube"
+        tag: "socialmedia"
+        url: "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
       - name: "Twitter"
         subtitle: "link to the twitter profile"
         icon: "fab fa-twitter"
