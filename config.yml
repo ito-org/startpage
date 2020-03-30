@@ -28,14 +28,14 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "DevOps"
+  - name: "Development"
     icon: "fas fa-code"
     items:
       - name: "GitHub"
         #logo: "/assets/tools/jenkins.png"
         # Alternatively a fa icon can be provided:
         icon: "fab fa-github"
-        subtitle: "Link to the Github organization"
+        subtitle: "Link to the GitHub organization"
         tag: "code"
         url: "https://github.com/ito-org"
         target: '_blank' # optional html a tag target attribute
@@ -47,8 +47,8 @@ services:
         url: "http://confluence.ito-app.org"
       - name: "Jira"
         logo: "/assets/tools/jira.png"
-        subtitle: "Projectmanagement"
-        tag: "organisation"
+        subtitle: "Project Management"
+        tag: "organization"
         url: "https://jira.ito-app.org"
         
   - name: "Communication"
@@ -58,20 +58,21 @@ services:
         icon: "fab fa-discord"
         tag: "communication"
         url: "https://discord.gg/GbSySkC"
-      - name: "Helpdesk"
+      - name: "Help Desk"
         logo: "/assets/tools/freescout.png"
         #icon: "fas fa-question"
         tag: "communication"
         url: "https://helpdesk.ito-app.org"
   
-  - name: "Webpresence"
+  - name: "Follow us"
     icon: "fas fa-comments"
     items:
       - name: "Homepage"
         logo: "/assets/logo.png"
         subtitle: "Official web presence of ito"
+        tag: "web"
         url: "https://ito-app.org"
-      - name: "Youtube"
+      - name: "YouTube"
         subtitle: "YouTube Channel"
         icon: "fab fa-youtube"
         tag: "socialmedia"
