@@ -50,10 +50,18 @@ services:
         subtitle: "Projectmanagement"
         tag: "organisation"
         url: "https://jira.ito-app.org"
+        
+  - name: "Communication"
+    icon: "fas fa-comments"
+    items: 
       - name: "Discord"
         icon: "fab fa-discord"
-        tag: "communictaion"
+        tag: "communication"
         url: "https://discord.gg/GbSySkC"
+      - name: "Helpdesk"
+        icon: "fas fa-question"
+        tag: "communication"
+        url: "https://helpdesk.ito-app.org"
   
   - name: "Webpresence"
     icon: "fas fa-comments"
