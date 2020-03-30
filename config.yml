@@ -20,7 +20,7 @@ message:
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "ito"
-    icon: "fas fa-code-fork"
+    icon: "fas fa-code-branch"
     url: "https://github.com/ito-org"
     target: '_blank' # optionnal html a tag target attribute
 
