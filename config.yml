@@ -2,7 +2,7 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "Ito App"
+title: "ito"
 subtitle: "List of all project links"
 logo: "assets/homer.png"
 # Alternatively a fa icon can be provided:
@@ -19,7 +19,7 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Ito"
+  - name: "ito"
     icon: "fas fa-code-fork"
     url: "https://github.com/ito-org"
     target: '_blank' # optionnal html a tag target attribute
@@ -31,17 +31,17 @@ services:
   - name: "DevOps"
     icon: "fas fa-code"
     items:
-      - name: "Github"
+      - name: "GitHub"
         #logo: "/assets/tools/jenkins.png"
         # Alternatively a fa icon can be provided:
         icon: "fab fa-github"
-        subtitle: "Link to the Github organisation"
+        subtitle: "Link to the Github organization"
         tag: "code"
         url: "https://github.com/ito-org"
-        target: '_blank' # optionnal html a tag target attribute
+        target: '_blank' # optional html a tag target attribute
       - name: "Confluence"
         logo: "/assets/tools/confluence.png"
-        subtitle: "Documentation and knowladge base."
+        subtitle: "Documentation and knowledge base"
         tag: "documentation"
         # Optional tagstyle
         url: "http://confluence.ito-app.org"
@@ -68,21 +68,21 @@ services:
     items:
       - name: "Homepage"
         logo: "/assets/logo.png"
-        subtitle: "Official web presence of Ito"
+        subtitle: "Official web presence of ito"
         url: "https://ito-app.org"
       - name: "Youtube"
-        subtitle: "Youtube Channel"
+        subtitle: "YouTube Channel"
         icon: "fab fa-youtube"
         tag: "socialmedia"
         url: "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
       - name: "Twitter"
-        subtitle: "link to the twitter profile"
+        subtitle: "link to the Twitter profile"
         icon: "fab fa-twitter"
         tag: "socialmedia"
         url: "https://twitter.com/BandemicApp?s=20"
       - name: "Instagram"
         icon: "fab fa-instagram"
         #logo: "/assets/tools/elastic.png"
-        subtitle: "link to the instagram profile"
+        subtitle: "link to the Instagram profile"
         tag: "socialmedia"
-        url: "#"
+        url: "https://www.instagram.com/bandemic.app"
