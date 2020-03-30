@@ -11,12 +11,11 @@ on:
     branches: [ master ]
 
 jobs:
-  lintAllTheThings:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: yaml-lint
-      uses: ibiqlik/action-yamllint@v1
+    - name: Run action
+      uses: jacobtomlinson/gha-lint-yaml@master
       with:
-        file_or_dir: config.yml
-        config_file: .yamllint.yml
+        path: config.yml
