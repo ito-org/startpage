@@ -14,7 +14,7 @@ message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
   style: "is-info"
   title: "Contribution!"
-  content: "You can contribute changes for this page on <a href="https://github.com/ito-org/startpage">Github</a>."
+  content: 'You can contribute changes for this page on <a href="https://github.com/ito-org/startpage">Github</a>.'
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
