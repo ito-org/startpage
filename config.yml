@@ -49,6 +49,10 @@ services:
         tag: "documentation"
         # Optional tagstyle
         url: "http://confluence.ito-app.org"
+      - name: "Q&A Board"
+        icon: "fas fa-question"
+        subtitle: "documentation"
+        url: "https://confluence.ito-app.org/display/IN/questions/all"
       - name: "Jira"
         logo: "/assets/tools/jira.png"
         subtitle: "Project Management"
