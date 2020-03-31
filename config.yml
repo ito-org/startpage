@@ -12,9 +12,9 @@ footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a hre
 # Optional message
 message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
-  style: "is-warning"
+  style: "is-info"
   title: "Contribution!"
-  content: "This is a first draft of all Ito service links, you can easily contribute on github (coming soon)."
+  content: 'You can contribute changes for this page on <a href="https://github.com/ito-org/startpage">Github</a>.'
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
@@ -58,7 +58,7 @@ services:
         icon: "fab fa-discord"
         tag: "communication"
         url: "https://discord.gg/GbSySkC"
-      - name: "Help Desk"
+      - name: "Mailclient"
         logo: "/assets/tools/freescout.png"
         #icon: "fas fa-question"
         tag: "communication"
