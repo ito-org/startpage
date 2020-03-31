@@ -7,7 +7,7 @@ subtitle: "List of all project links"
 logo: "assets/logo_black.png"
 # Alternatively a fa icon can be provided:
 # icon: "fas fa-skull-crossbones"
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'  # set false if you want to hide it.header:
+footer: false #'<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> & <a href="https://github.com/bastienwirtz/homer">homer</a>'  # set false if you want to hide it.header:
 
 # Optional message
 #message:
@@ -23,7 +23,7 @@ links:
     icon: "fas fa-code-branch"
     url: "https://github.com/ito-org"
     target: '_blank' # optionnal html a tag target attribute
-  - name: "Edit on Github"
+  - name: "Edit"
     icon: "fab fa-github"
     url: "https://github.com/ito-org/startpage"
     target: '_blank'
