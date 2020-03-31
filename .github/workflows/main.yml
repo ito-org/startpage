@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Yaml Check
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run action
+      uses: jacobtomlinson/gha-lint-yaml@master
+      with:
+        path: config.yml
+    - name: Check outputs
+      run: echo "There were ${{ steps.yamllint.outputs.warnings }} YAML linting warnings."
+
