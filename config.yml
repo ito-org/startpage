@@ -50,7 +50,7 @@ services:
         subtitle: "Project Management"
         tag: "organization"
         url: "https://jira.ito-app.org"
-        
+
   - name: "Communication"
     icon: "fas fa-comments"
     items:
