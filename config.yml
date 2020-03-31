@@ -58,7 +58,7 @@ services:
         icon: "fab fa-discord"
         tag: "communication"
         url: "https://discord.gg/GbSySkC"
-      - name: "Help Desk"
+      - name: "Mailclient"
         logo: "/assets/tools/freescout.png"
         #icon: "fas fa-question"
         tag: "communication"
