@@ -19,3 +19,9 @@ jobs:
       uses: jacobtomlinson/gha-lint-yaml@master
       with:
         path: config.yml
+
+
+    - name: Check outputs
+      run: |
+        echo "There were ${{ steps.yamllint.outputs.warnings }} YAML linting warnings."
+
