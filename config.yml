@@ -6,7 +6,7 @@ title: "ito"
 subtitle: "List of all project links"
 logo: "assets/logo_black.png"
 # Alternatively a fa icon can be provided:
-# icon: "fas fa-skull-crossbones"  
+# icon: "fas fa-skull-crossbones"
 footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'  # set false if you want to hide it.header:
 
 # Optional message
@@ -53,7 +53,7 @@ services:
         
   - name: "Communication"
     icon: "fas fa-comments"
-    items: 
+    items:
       - name: "Discord"
         icon: "fab fa-discord"
         tag: "communication"
@@ -63,7 +63,7 @@ services:
         #icon: "fas fa-question"
         tag: "communication"
         url: "https://helpdesk.ito-app.org"
-  
+
   - name: "Follow us"
     icon: "fas fa-comments"
     items:
