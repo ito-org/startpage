@@ -81,7 +81,7 @@ services:
         logo: "/assets/logo.png"
         subtitle: "Official Web Presence of ito"
         tag: "web"
-        url: "https://bandemic.app"
+        url: "https://ito-app.org"
       - name: "YouTube"
         subtitle: "Link to our Channel"
         icon: "fab fa-youtube"
