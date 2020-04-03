@@ -14,7 +14,7 @@ Examples:
 # Create a new entry
 - name: "Title for the Entry"
   subtitle: "Link to the GitHub organization"
-  # you can use icon ore logo like this:
+  # you can use icon or logo like this:
   #icon: "fab fa-question"
   #logo: "/assets/to/logo.png" 
   tag: "code"
